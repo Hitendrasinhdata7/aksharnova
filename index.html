@@ -30,7 +30,7 @@ ul{list-style:none;}
 .container{max-width:1240px;margin:0 auto;padding:0 24px;}
 
 :root{--curve:cubic-bezier(.22,1,.36,1);}
-.section{padding:112px 0;}
+.section{padding:72px 0;}
 
 .eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:0.88rem;font-weight:700;letter-spacing:0.01em;color:var(--blue);background:var(--blue-light);padding:10px 19px 10px 16px;border-radius:100px;margin-bottom:22px;line-height:1;}
 .eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 3px rgba(255,122,61,.22);}
@@ -40,7 +40,7 @@ ul{list-style:none;}
 .sub{font-size:1.12rem;color:var(--grey);max-width:660px;line-height:1.7;}
 .sub.center{margin:0 auto;text-align:center;}
 .center-head{text-align:center;}
-.sec-head{margin-bottom:60px;}
+.sec-head{margin-bottom:40px;}
 .section .hl{color:var(--navy);font-weight:700;padding:.08em .42em;border-radius:7px;background:rgba(255,122,61,.14);-webkit-box-decoration-break:clone;box-decoration-break:clone;}
 .section .hl-b{color:var(--blue);font-weight:700;padding:.08em .42em;border-radius:7px;background:var(--blue-light);-webkit-box-decoration-break:clone;box-decoration-break:clone;}
 .why-sec .hl{color:#fff;background:rgba(255,122,61,.24);}
@@ -369,8 +369,8 @@ ul{list-style:none;}
 .hero-marquee:hover .hero-marquee-track{animation-play-state:paused;}
 
 /* ===== LOGOS ===== */
-.logos{padding:36px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:#fff;}
-.logos-label{text-align:center;font-size:0.78rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--grey-light);margin-bottom:24px;}
+.logos{padding:26px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:#fff;}
+.logos-label{text-align:center;font-size:0.78rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--grey-light);margin-bottom:16px;}
 .logos-row{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:44px;}
 .logo-chip{font-family:var(--heading);font-weight:800;font-size:1.05rem;color:var(--grey-light);opacity:0.55;transition:opacity .25s;}
 .logo-chip:hover{opacity:1;color:var(--navy);}
@@ -386,7 +386,7 @@ ul{list-style:none;}
 .tick-list{list-style:none;}
 .tick-list li{position:relative;padding-left:28px;font-size:0.93rem;color:var(--grey);line-height:1.55;margin-bottom:11px;}
 .tick-list li::before{content:'';position:absolute;left:0;top:.18em;width:19px;height:19px;border-radius:50%;background:var(--blue-light) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d3ae0' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'><path d='m5 12.5 4.5 4.5L19 7.5'/></svg>") center/11px no-repeat;}
-.cta-line{text-align:center;margin-top:48px;}
+.cta-line{text-align:center;margin-top:36px;}
 
 /* ===== SERVICES ===== */
 .services-sec{background:#fff;}
@@ -464,7 +464,7 @@ body.modal-open{overflow:hidden;}
 .st-hint{text-align:center;font-size:.86rem;color:var(--grey);margin-top:18px;}
 
 /* ===== CASE STUDIES ===== */
-.work-sec{background:#fff;}
+.work-sec{background:var(--bg);}
 .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
 .case{display:flex;flex-direction:column;background:#fff;border:1px solid var(--border);border-radius:26px;overflow:hidden;box-shadow:0 22px 50px -36px rgba(11,19,48,.45);transition:transform .45s var(--curve),box-shadow .45s var(--curve);}
 .case:hover{transform:translateY(-7px);box-shadow:0 40px 70px -32px rgba(11,19,48,.45);}
@@ -491,10 +491,10 @@ body.modal-open{overflow:hidden;}
 .case-link:hover .arrow{transform:translateX(5px);}
 
 /* ===== INDUSTRIES ===== */
-.industries-sec{background:var(--bg);}
-.ind-legend{display:flex;align-items:center;justify-content:center;gap:10px;font-size:.88rem;color:var(--grey);margin:-26px 0 34px;}
+.industries-sec{background:#fff;}
+.ind-legend{display:flex;align-items:center;justify-content:center;gap:10px;font-size:.88rem;color:var(--grey);margin:-12px 0 26px;}
 .ind-legend i{width:12px;height:12px;border-radius:4px;background:linear-gradient(135deg,#0b1330,#1d3ae0);}
-.ind-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+.ind-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
 .ind{position:relative;display:flex;flex-direction:column;gap:12px;background:#fff;border:1px solid var(--border);border-radius:22px;padding:26px 24px 24px;overflow:hidden;transition:transform .45s var(--curve),box-shadow .45s var(--curve),border-color .3s;}
 .ind:hover{transform:translateY(-6px);border-color:rgba(29,58,224,.4);box-shadow:0 28px 54px -30px rgba(29,58,224,.42);}
 .ind-ico{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:var(--blue-light);color:var(--blue);transition:background .3s,color .3s;}
@@ -517,7 +517,7 @@ body.modal-open{overflow:hidden;}
 .why-sec{background:var(--navy);}
 .why-sec .eyebrow{color:var(--orange);background:rgba(255,122,61,0.12);}
 .why-sec .h2{color:#fff;}
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px;}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:0;}
 .why-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius-md);padding:26px 24px;}
 .why-card .num{font-family:var(--heading);font-weight:800;color:var(--orange);font-size:0.78rem;letter-spacing:0.08em;margin-bottom:10px;}
 .why-card h4{font-family:var(--heading);font-size:1.02rem;font-weight:700;color:#fff;margin-bottom:6px;}
@@ -550,7 +550,7 @@ body.modal-open{overflow:hidden;}
 .t-toggle svg{width:14px;height:14px;fill:currentColor;}
 
 /* ===== CTA ===== */
-.cta-sec{background:linear-gradient(135deg,var(--navy),#1a2660);padding:80px 0;position:relative;overflow:hidden;}
+.cta-sec{background:linear-gradient(135deg,var(--navy),#1a2660);padding:56px 0;position:relative;overflow:hidden;}
 .cta-inner{position:relative;z-index:2;text-align:center;max-width:640px;margin:0 auto;}
 .cta-inner h2{font-family:var(--heading);font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:800;color:#fff;margin-bottom:14px;}
 .cta-inner p{color:rgba(255,255,255,0.6);margin-bottom:30px;}
@@ -624,7 +624,7 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
   .hero-stat span{max-width:none;font-size:.72rem;}
   .hero-marquee{padding:12px 0;}
   .hero-marquee-group{gap:32px;padding-right:32px;}
-  .section{padding:60px 0;}
+  .section{padding:44px 0;}
   .grid-3,.work-grid,.why-grid,.testi-grid{grid-template-columns:1fr;}
   .process-row{grid-template-columns:1fr 1fr;}
   .form-row{grid-template-columns:1fr;}
@@ -671,7 +671,7 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 
 /* ===== RESPONSIVE (new sections) ===== */
 @media(max-width:1100px){
-  .ind-grid{grid-template-columns:repeat(3,1fr);}
+  .ind-grid{grid-template-columns:repeat(2,1fr);}
   .work-grid{grid-template-columns:1fr;max-width:620px;margin-left:auto;margin-right:auto;}
 }
 @media(max-width:1024px){
@@ -686,8 +686,8 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
   .dlg-cols,.st-cols{grid-template-columns:1fr;gap:22px;}
 }
 @media(max-width:768px){
-  .section{padding:72px 0;}
-  .sec-head{margin-bottom:40px;}
+  .section{padding:44px 0;}
+  .sec-head{margin-bottom:28px;}
   .ind-grid{grid-template-columns:repeat(2,1fr);gap:14px;}
   .ind{padding:22px 18px 20px;}
   .t-card{width:320px;padding:28px 24px 24px;}
@@ -769,11 +769,11 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 .tech-banner p span{color:#ffb48f;}
 
 /* ---- Footer ---- */
-.footer{position:relative;overflow:hidden;padding:0 0 28px;background:radial-gradient(700px 400px at 100% 0%,rgba(29,58,224,.38),transparent 65%),radial-gradient(520px 320px at 0% 100%,rgba(255,122,61,.14),transparent 65%),var(--navy);}
+.footer{position:relative;overflow:hidden;padding:56px 0 24px;background:radial-gradient(700px 400px at 100% 0%,rgba(29,58,224,.38),transparent 65%),radial-gradient(520px 320px at 0% 100%,rgba(255,122,61,.14),transparent 65%),var(--navy);}
 .f-cta{margin:72px 0 64px;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;padding:42px 46px;border-radius:28px;background:radial-gradient(380px 220px at 100% 0%,rgba(255,122,61,.55),transparent 70%),linear-gradient(135deg,#1d3ae0,#0b1330 135%);border:1px solid rgba(255,255,255,.14);box-shadow:0 40px 80px -40px rgba(0,0,0,.7);}
 .f-cta h3{font-family:var(--heading);font-size:clamp(1.5rem,3vw,2.2rem);font-weight:800;letter-spacing:-.03em;color:#fff;line-height:1.15;}
 .f-cta p{color:rgba(255,255,255,.75);margin-top:8px;max-width:520px;}
-.footer-top{grid-template-columns:1.5fr 1fr 1fr 1fr 1.2fr;gap:44px;margin-bottom:44px;}
+.footer-top{grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:44px;margin-bottom:36px;}
 .footer-blurb{max-width:300px;font-size:.9rem;line-height:1.7;margin:6px 0 20px;}
 .f-social{display:flex;gap:10px;}
 .f-social a{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);transition:background .25s,transform .25s;}
@@ -805,6 +805,57 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
   .eyebrow{padding:13px 22px 13px 18px;}
 }
 @media(max-width:520px){.footer-top{grid-template-columns:1fr;}}
+
+/* ===== CONTENT UPDATE: additions ===== */
+.hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px;max-width:520px;}
+.hero-stat b{font-size:.95rem;line-height:1.3;max-width:none;}
+@media(min-width:1025px){.hero-stat + .hero-stat{padding-left:20px;}}
+@media(max-width:1024px){.hero-stats{margin:0 auto;}}
+@media(max-width:768px){.hero-stat b{font-size:.8rem;max-width:none;}}
+.about-sec{background:#fff;}
+.about-copy{max-width:820px;margin:0 auto;text-align:center;}
+.about-copy p{font-size:1.06rem;line-height:1.75;color:var(--grey);margin-bottom:16px;}
+.about-copy p.lead{font-size:1.2rem;color:var(--navy);font-weight:600;}
+.why-sec .sub{color:rgba(255,255,255,.72);margin-bottom:12px;}
+.why-sec .sub:last-child{margin-bottom:0;}
+.why-sec .sec-head .sub.strong{color:#fff;font-weight:600;}
+.st-panels{display:grid;}
+.st-panel{display:grid;grid-area:1/1;visibility:hidden;pointer-events:none;}
+.st-panel.active{visibility:visible;pointer-events:auto;}
+@media(max-width:860px){.st-panel,.st-panel.active{grid-template-columns:1fr;}}
+.st-title{font-family:var(--heading);font-size:1.3rem;font-weight:800;letter-spacing:-.02em;line-height:1.25;color:var(--navy);margin-bottom:8px;}
+.st-lead{font-size:1rem;font-weight:400;color:var(--grey);}
+.st-main{gap:20px;padding:30px 36px;}
+.st-aside{min-height:0;}
+.st-cols .tick-list li{margin-bottom:8px;font-size:.9rem;}
+.ind-focus{margin-top:auto;font-size:.78rem;font-weight:600;line-height:1.5;color:var(--blue);padding-top:12px;border-top:1px dashed var(--border);}
+.ind.featured .ind-focus{color:#ffb48f;border-top-color:rgba(255,255,255,.2);}
+.ind-badge{margin-top:0;}
+.case-sub{font-size:.8rem;}
+.case-caps{list-style:none;display:grid;gap:3px;}
+.case-caps li{position:relative;padding-left:16px;font-size:.84rem;line-height:1.45;color:var(--grey);}
+.case-caps li::before{content:'✓';position:absolute;left:0;color:var(--orange);font-weight:800;}
+.work-cta{margin-top:40px;text-align:center;padding:30px 24px;border-radius:24px;background:#fff;border:1px solid var(--border);}
+.work-cta h3{font-family:var(--heading);font-size:1.4rem;font-weight:800;color:var(--navy);margin-bottom:6px;}
+.work-cta p{color:var(--grey);margin-bottom:18px;}
+.tech-banner{justify-content:center;text-align:center;}
+.tech-banner p{max-width:760px;}
+.cta-label{display:inline-block;font-family:var(--heading);font-size:.82rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#ffb48f;margin-bottom:14px;}
+.cta-inner{max-width:760px;}
+.cta-inner p{margin-bottom:14px;}
+.cta-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:20px;}
+.contact-grid{margin-top:0;align-items:stretch;gap:28px;}
+.contact-info .mail-rows{margin-bottom:22px;}
+.contact-form h3{font-family:var(--heading);font-size:1.4rem;font-weight:800;letter-spacing:-.02em;color:var(--navy);margin-bottom:18px;}
+.contact-form .btn{width:100%;justify-content:center;}
+.contact-form .field:last-of-type{margin-bottom:18px;}
+#formStatus.ok{color:#15803d;font-weight:600;line-height:1.5;margin-top:14px;}
+#formStatus.err{color:#b91c1c;font-weight:600;margin-top:14px;}
+.contact-info .contact-row svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+.footer-tag{font-family:var(--heading);font-weight:700;color:#fff;font-size:.95rem;margin:2px 0 10px;}
+.footer-blurb{max-width:340px;margin:0 0 12px;}
+.footer-legal a{margin-left:18px;}
+@media(max-width:1024px){.contact-grid{grid-template-columns:1fr;}}
 </style>
   <!-- FAVICON: change the path to your icon file (square PNG, 64x64 or larger) -->
   <link rel="icon" href="images/favicon.png" type="image/png">
@@ -841,13 +892,13 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
       <span class="brand-fallback"><span class="mark">AN</span>AksharNova</span>
     </a>
     <div class="nav-links">
+      <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#work">Work</a>
-      <a href="#industries">Industries</a>
-      <a href="#tech">Tech Stack</a>
       <a href="#why">Why Us</a>
-      <a href="#testimonials">Testimonials</a>
+      <a href="#process">Process</a>
+      <a href="#industries">Industries</a>
+      <a href="#work">Case Studies</a>
+      <a href="#tech">Technology</a>
       <a href="#contact">Contact</a>
     </div>
     <div class="nav-right">
@@ -858,13 +909,13 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 </nav>
 
 <div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mlink">About</a>
   <a href="#services" class="mlink">Services</a>
-  <a href="#process" class="mlink">Process</a>
-  <a href="#work" class="mlink">Work</a>
-  <a href="#industries" class="mlink">Industries</a>
-  <a href="#tech" class="mlink">Tech Stack</a>
   <a href="#why" class="mlink">Why Us</a>
-  <a href="#testimonials" class="mlink">Testimonials</a>
+  <a href="#process" class="mlink">Process</a>
+  <a href="#industries" class="mlink">Industries</a>
+  <a href="#work" class="mlink">Case Studies</a>
+  <a href="#tech" class="mlink">Technology</a>
   <a href="#contact" class="mlink">Contact</a>
   <a href="#contact" class="cta mlink">Let's Talk →</a>
 </div>
@@ -875,17 +926,17 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
     <div class="hero-grid">
 
       <div class="hero-copy">
-        <div class="hero-badge"><span class="dot"></span>UK-based · AI &amp; software engineering partner</div>
-        <h1>Engineering <span class="hl-b"><span class="nb">AI-powered</span> products</span> that move your <span class="accent">business forward.</span></h1>
-        <p>AksharNova helps ambitious companies design, build and scale <span class="hl">intelligent software</span> — from <span class="hl">AI agents and automation</span> to full digital platforms.</p>
+        <div class="hero-badge"><span class="dot"></span>UK-Based · AI &amp; Software Engineering Partner</div>
+        <h1>Turning Complex Business Challenges Into <span class="accent">Intelligent Digital Solutions.</span></h1>
+        <p>AksharNova partners with ambitious businesses to engineer <span class="hl">intelligent software</span>, implement <span class="hl">practical AI solutions</span> and build scalable digital platforms. We combine strategic thinking, modern engineering and AI innovation to help organisations work smarter, move faster and grow with confidence.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Talk to an Expert <span class="arrow">→</span></a>
-          <a href="#work" class="btn btn-ghost">See Our Work <span class="arrow">→</span></a>
+          <a href="#contact" class="btn btn-primary">Let's Discuss Your Project <span class="arrow">→</span></a>
+          <a href="#services" class="btn btn-ghost">Explore Our Expertise <span class="arrow">→</span></a>
         </div>
         <div class="hero-stats">
-          <div class="hero-stat"><b>AI-first</b><span>Intelligence designed in from day one</span></div>
-          <div class="hero-stat"><b>Direct</b><span>Access to the engineers building it</span></div>
-          <div class="hero-stat"><b>24hr</b><span>Typical first response</span></div>
+          <div class="hero-stat"><b>AI-Powered Innovation</b></div>
+          <div class="hero-stat"><b>Scalable Software Engineering</b></div>
+          <div class="hero-stat"><b>End-to-End Digital Solutions</b></div>
         </div>
       </div>
 
@@ -992,13 +1043,20 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
   </div>
 </section>
 
-<!-- STATS -->
-<section class="stats-band">
-  <div class="container stats-grid">
-    <div class="stat reveal visible"><b>UK</b><span>Based in the UK, working worldwide</span></div>
-    <div class="stat reveal d1 visible"><b>Weekly</b><span>Demos of working software</span></div>
-    <div class="stat reveal d2 visible"><b>Lean</b><span>Focused team, no hand-off layers</span></div>
-    <div class="stat reveal d3 visible"><b>Ongoing</b><span>Support beyond launch</span></div>
+<!-- ABOUT -->
+<section class="section about-sec" id="about">
+  <div class="container">
+    <div class="reveal visible center-head sec-head">
+      <span class="eyebrow">About AksharNova</span>
+      <h2 class="h2">Technology That Creates <span class="accent">Real Business Value.</span></h2>
+    </div>
+    <div class="about-copy reveal visible">
+      <p class="lead">At AksharNova, we believe technology should do more than support business operations — it should create new opportunities for growth.</p>
+      <p>We are a technology and software engineering partner helping businesses transform ideas into intelligent, reliable and scalable digital solutions. From AI-powered applications and intelligent automation to enterprise software and cloud-based platforms, we bring together technical expertise and business understanding to deliver solutions that address real-world challenges.</p>
+      <p>Our approach goes beyond writing code. We work closely with our clients to understand their objectives, identify opportunities, design the right solutions and engineer technology that delivers lasting value.</p>
+      <p>Whether you are launching a new digital product, modernising existing systems or exploring how AI can improve your operations, AksharNova helps you move from possibility to implementation.</p>
+      <div class="cta-line" style="margin-top:24px"><a href="#services" class="btn btn-primary">Discover What We Do <span class="arrow">→</span></a></div>
+    </div>
   </div>
 </section>
 
@@ -1007,53 +1065,74 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
   <div class="container">
     <div class="reveal visible center-head sec-head">
       <span class="eyebrow">What we do</span>
-      <h2 class="h2">Everything you need to <span class="accent">build, automate and scale</span></h2>
-      <p class="sub center">Six core capabilities, one engineering team. Select any service to see exactly what we deliver.</p>
+      <h2 class="h2">End-to-End Technology Solutions for a <span class="accent">Smarter Business.</span></h2>
+      <p class="sub center">From intelligent automation to complete digital ecosystems, we provide the technical expertise and engineering capabilities to bring your business vision to life.</p>
     </div>
     <div class="grid-3">
       <article class="svc-card reveal d1" data-service="ai">
         <span class="svc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-cpu"/></svg></span>
         <h3>AI &amp; Machine Learning</h3>
-        <p>Generative AI, ML models and intelligent systems built for <span class="hl">real business outcomes</span>.</p>
-        <ul class="svc-points"><li>Generative AI</li><li>Predictive models</li><li>RAG &amp; search</li></ul>
+        <p>Intelligent AI solutions that transform business data into actionable insights.</p>
+        <ul class="svc-points"><li>Generative AI</li><li>Predictive Models</li><li>RAG &amp; Search</li></ul>
         <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about AI &amp; Machine Learning">Learn more <span class="arrow" aria-hidden="true">→</span></button>
       </article>
       <article class="svc-card reveal d2" data-service="agents">
         <span class="svc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-bot"/></svg></span>
         <h3>AI Agents &amp; Automation</h3>
-        <p>Autonomous agents and workflows that <span class="hl">take repetitive work off your team</span>.</p>
-        <ul class="svc-points"><li>Task agents</li><li>Workflow automation</li><li>Human-in-the-loop</li></ul>
+        <p>Autonomous agents and workflows that eliminate repetitive tasks and improve efficiency.</p>
+        <ul class="svc-points"><li>Task Agents</li><li>Workflow Automation</li><li>Human-in-the-Loop</li></ul>
         <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about AI Agents &amp; Automation">Learn more <span class="arrow" aria-hidden="true">→</span></button>
       </article>
       <article class="svc-card reveal d3" data-service="software">
         <span class="svc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-window"/></svg></span>
-        <h3>Custom Software</h3>
-        <p>Web and enterprise platforms engineered around <span class="hl">your exact workflows</span>.</p>
-        <ul class="svc-points"><li>Web platforms</li><li>APIs &amp; integrations</li><li>Enterprise systems</li></ul>
-        <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Custom Software">Learn more <span class="arrow" aria-hidden="true">→</span></button>
+        <h3>Custom Software Development</h3>
+        <p>Tailored software platforms designed around your business needs and workflows.</p>
+        <ul class="svc-points"><li>Web Platforms</li><li>APIs &amp; Integrations</li><li>Enterprise Systems</li></ul>
+        <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Custom Software Development">Learn more <span class="arrow" aria-hidden="true">→</span></button>
       </article>
       <article class="svc-card reveal d4" data-service="mobile">
         <span class="svc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-phone"/></svg></span>
         <h3>Mobile App Development</h3>
-        <p>iOS and Android apps with <span class="hl">polished UX</span> and a backend built to scale.</p>
-        <ul class="svc-points"><li>iOS &amp; Android</li><li>Cross-platform</li><li>Store launch</li></ul>
+        <p>Intuitive mobile applications that connect businesses with customers anywhere.</p>
+        <ul class="svc-points"><li>iOS Apps</li><li>Android Apps</li><li>Cross-Platform Development</li></ul>
         <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Mobile App Development">Learn more <span class="arrow" aria-hidden="true">→</span></button>
       </article>
       <article class="svc-card reveal d5" data-service="cloud">
         <span class="svc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-cloud"/></svg></span>
-        <h3>Cloud &amp; DevOps</h3>
-        <p>Cost-aware infrastructure and pipelines so you can <span class="hl">ship faster, safely</span>.</p>
-        <ul class="svc-points"><li>Migration</li><li>CI/CD</li><li>Observability</li></ul>
-        <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Cloud &amp; DevOps">Learn more <span class="arrow" aria-hidden="true">→</span></button>
+        <h3>Cloud &amp; DevOps Engineering</h3>
+        <p>Scalable cloud infrastructure and streamlined deployments built for reliability.</p>
+        <ul class="svc-points"><li>Cloud Migration</li><li>CI/CD</li><li>Infrastructure Automation</li></ul>
+        <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Cloud &amp; DevOps Engineering">Learn more <span class="arrow" aria-hidden="true">→</span></button>
       </article>
       <article class="svc-card reveal d6" data-service="data">
         <span class="svc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-chart"/></svg></span>
-        <h3>Data &amp; Analytics</h3>
-        <p>Pipelines and dashboards that turn scattered data into <span class="hl">decisions you can trust</span>.</p>
-        <ul class="svc-points"><li>Pipelines</li><li>Warehousing</li><li>Dashboards</li></ul>
-        <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Data &amp; Analytics">Learn more <span class="arrow" aria-hidden="true">→</span></button>
+        <h3>Data Engineering &amp; Analytics</h3>
+        <p>Turn complex business data into meaningful insights and smarter decisions.</p>
+        <ul class="svc-points"><li>Data Pipelines</li><li>Business Intelligence</li><li>Analytics</li></ul>
+        <button type="button" class="svc-more" aria-haspopup="dialog" aria-label="Learn more about Data Engineering &amp; Analytics">Learn more <span class="arrow" aria-hidden="true">→</span></button>
       </article>
     </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="section why-sec" id="why">
+  <div class="container">
+    <div class="reveal visible center-head sec-head">
+      <span class="eyebrow">Why AksharNova</span>
+      <h2 class="h2">More Than a Technology Provider. <span class="accent">Your Engineering Partner.</span></h2>
+      <p class="sub center">Choosing the right technology partner can make the difference between simply building software and creating a solution that moves your business forward.</p>
+      <p class="sub center strong">At AksharNova, we combine engineering expertise, practical innovation and a business-first mindset to deliver technology that makes a difference.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal d1"><div class="num">01</div><h4>Business-Driven Engineering</h4><p>Every solution starts with understanding your business objectives. We focus on solving meaningful challenges and ensuring technology investments deliver practical value.</p></div>
+      <div class="why-card reveal d2"><div class="num">02</div><h4>AI at the Core</h4><p>We identify opportunities to integrate artificial intelligence, machine learning and automation where they can improve processes, enhance products and create new possibilities.</p></div>
+      <div class="why-card reveal d3"><div class="num">03</div><h4>Tailored Solutions</h4><p>Your business is unique, and your technology should reflect that. We build solutions around your requirements, workflows and long-term vision.</p></div>
+      <div class="why-card reveal d4"><div class="num">04</div><h4>Quality &amp; Reliability</h4><p>We prioritise maintainable architecture, robust testing and dependable engineering practices to create solutions that businesses can rely on.</p></div>
+      <div class="why-card reveal d5"><div class="num">05</div><h4>Transparent Collaboration</h4><p>We believe great outcomes come from strong partnerships. Stay involved throughout development with clear communication, regular progress updates and working demonstrations.</p></div>
+      <div class="why-card reveal d6"><div class="num">06</div><h4>Long-Term Partnership</h4><p>Our relationship doesn’t have to end at launch. We can support, optimise and evolve your technology as your business grows and its requirements change.</p></div>
+    </div>
+    <div class="cta-line reveal"><a href="#contact" class="btn btn-orange">Let’s Build Something Together <span class="arrow">→</span></a></div>
   </div>
 </section>
 
@@ -1061,9 +1140,9 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 <section class="section process-sec" id="process">
   <div class="container">
     <div class="reveal visible center-head sec-head">
-      <span class="eyebrow">How we work</span>
-      <h2 class="h2">A clear process, <span class="accent">from idea to launch</span></h2>
-      <p class="sub center">Six steps that keep projects predictable, transparent and moving forward.</p>
+      <span class="eyebrow">Our process</span>
+      <h2 class="h2">From Business Vision to <span class="accent">Intelligent Solutions.</span></h2>
+      <p class="sub center">A structured approach that brings clarity, precision and engineering excellence to every stage of your digital journey. We combine strategic planning, thoughtful design and disciplined engineering to transform your ideas into reliable digital solutions.</p>
     </div>
     <div class="stepper reveal" id="stepper">
       <div class="st-track" role="tablist" aria-label="Our delivery process">
@@ -1094,10 +1173,10 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <div class="st-big" aria-hidden="true">01</div>
         </div>
         <div class="st-main">
-          <p class="st-lead">We start by understanding your goals, users and constraints — before any design or code.</p>
+          <div><p class="st-title">Understand the Challenge. Identify the Opportunity.</p><p class="st-lead">Every successful project begins with a clear understanding of your business. We work closely with you to explore your objectives, understand existing challenges and identify the right opportunities for technology to create value.</p></div>
           <div class="st-cols">
-            <div><h4>What we do</h4><ul class="tick-list"><li>Stakeholder and user interviews</li><li>Review of existing systems and data</li><li>Define success metrics and scope</li></ul></div>
-            <div><h4>What you get</h4><ul class="tick-list"><li>A clear problem statement</li><li>A prioritised list of opportunities</li><li>A realistic scope and roadmap</li></ul></div>
+            <div><h4>What We Do</h4><ul class="tick-list"><li>Understand your business goals, requirements and expectations.</li><li>Analyse existing systems, processes and technology infrastructure.</li><li>Identify opportunities for AI, automation and digital transformation.</li><li>Evaluate technical feasibility, potential challenges and dependencies.</li><li>Define project priorities, objectives and success criteria.</li></ul></div>
+            <div><h4>What You Get</h4><ul class="tick-list"><li>A clearly defined project scope and objectives.</li><li>A detailed understanding of business and technical requirements.</li><li>Identified opportunities and recommended solutions.</li><li>A prioritised development roadmap.</li><li>A clear direction for the next stage of development.</li></ul></div>
           </div>
         </div>
       </article>
@@ -1107,10 +1186,10 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <div class="st-big" aria-hidden="true">02</div>
         </div>
         <div class="st-main">
-          <p class="st-lead">Architecture and UX are planned together, so what we build is both sound and simple to use.</p>
+          <div><p class="st-title">Create the Blueprint for a Smarter Solution.</p><p class="st-lead">With a clear understanding of your requirements, we translate your vision into a practical technical and design strategy. We plan the architecture, user experience and technology stack to ensure your solution is intuitive, secure and built for future growth.</p></div>
           <div class="st-cols">
-            <div><h4>What we do</h4><ul class="tick-list"><li>Solution architecture and technology choices</li><li>UX flows and clickable prototypes</li><li>Security and integration planning</li></ul></div>
-            <div><h4>What you get</h4><ul class="tick-list"><li>An architecture blueprint</li><li>An interactive prototype to react to</li><li>A delivery plan with milestones</li></ul></div>
+            <div><h4>What We Do</h4><ul class="tick-list"><li>Design the overall solution architecture and technical framework.</li><li>Select appropriate technologies, tools and development platforms.</li><li>Create user journeys, interface layouts and interactive prototypes.</li><li>Plan database structures, APIs and system integrations.</li><li>Establish security, scalability and performance requirements.</li></ul></div>
+            <div><h4>What You Get</h4><ul class="tick-list"><li>A comprehensive solution architecture and technical blueprint.</li><li>User interface concepts and interactive prototypes.</li><li>A recommended technology stack.</li><li>Defined integration and security requirements.</li><li>A structured development plan with milestones.</li></ul></div>
           </div>
         </div>
       </article>
@@ -1120,10 +1199,10 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <div class="st-big" aria-hidden="true">03</div>
         </div>
         <div class="st-main">
-          <p class="st-lead">We engineer in short iterations, with working software you can see at every stage.</p>
+          <div><p class="st-title">Transform the Design Into Working Technology.</p><p class="st-lead">This is where your vision becomes reality. Our engineering team develops your solution through structured development cycles, combining clean code, modern technologies and continuous testing to deliver reliable software that meets your requirements.</p></div>
           <div class="st-cols">
-            <div><h4>What we do</h4><ul class="tick-list"><li>Iterative sprints with regular demos</li><li>Code review and automated testing</li><li>Continuous integration from day one</li></ul></div>
-            <div><h4>What you get</h4><ul class="tick-list"><li>Working increments each sprint</li><li>Tested, documented code</li><li>Transparent progress reporting</li></ul></div>
+            <div><h4>What We Do</h4><ul class="tick-list"><li>Develop application features and core system functionality.</li><li>Implement AI models, intelligent agents and automation workflows where required.</li><li>Build frontend interfaces, backend services and databases.</li><li>Conduct code reviews, functional testing and quality checks.</li><li>Share regular progress updates and working demonstrations.</li></ul></div>
+            <div><h4>What You Get</h4><ul class="tick-list"><li>Functional software developed around your requirements.</li><li>Regular working versions and development demonstrations.</li><li>Tested and maintainable application components.</li><li>Transparent progress updates and milestone reviews.</li><li>A solution ready for integration and final validation.</li></ul></div>
           </div>
         </div>
       </article>
@@ -1133,10 +1212,10 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <div class="st-big" aria-hidden="true">04</div>
         </div>
         <div class="st-main">
-          <p class="st-lead">We connect your new product to the systems, data and AI models it depends on.</p>
+          <div><p class="st-title">Connect Systems. Unify Data. Enable Intelligence.</p><p class="st-lead">A successful digital solution needs to work seamlessly within your existing technology ecosystem. We connect applications, platforms, APIs, databases and AI capabilities to ensure information flows securely and business processes work together efficiently.</p></div>
           <div class="st-cols">
-            <div><h4>What we do</h4><ul class="tick-list"><li>API and third-party integrations</li><li>Data migration and pipelines</li><li>AI and LLM integration with evaluation</li></ul></div>
-            <div><h4>What you get</h4><ul class="tick-list"><li>Connected, end-to-end workflows</li><li>Validated data flows</li><li>Performance and accuracy checks</li></ul></div>
+            <div><h4>What We Do</h4><ul class="tick-list"><li>Integrate third-party applications, platforms and external APIs.</li><li>Connect databases, enterprise systems and business tools.</li><li>Implement data migration, transformation and synchronisation.</li><li>Integrate AI models, language models and intelligent services.</li><li>Validate integrations, data accuracy and end-to-end workflows.</li></ul></div>
+            <div><h4>What You Get</h4><ul class="tick-list"><li>Seamlessly connected applications and business systems.</li><li>Reliable data exchange across integrated platforms.</li><li>Validated workflows and integration functionality.</li><li>Tested AI and automation capabilities.</li><li>A unified solution ready for production deployment.</li></ul></div>
           </div>
         </div>
       </article>
@@ -1146,10 +1225,10 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <div class="st-big" aria-hidden="true">05</div>
         </div>
         <div class="st-main">
-          <p class="st-lead">A secure, staged release with monitoring in place from the very first day.</p>
+          <div><p class="st-title">Deploy With Confidence. Start Delivering Value.</p><p class="st-lead">Before your solution goes live, we focus on quality, security, performance and deployment readiness. Our team manages the release process carefully to ensure your application is production-ready and prepared to support real users and business operations.</p></div>
           <div class="st-cols">
-            <div><h4>What we do</h4><ul class="tick-list"><li>Security review and load testing</li><li>Staged rollout and go-live support</li><li>Monitoring and alerting setup</li></ul></div>
-            <div><h4>What you get</h4><ul class="tick-list"><li>A production-ready release</li><li>Runbooks and team handover</li><li>Hands-on launch support</li></ul></div>
+            <div><h4>What We Do</h4><ul class="tick-list"><li>Perform final functional, security and performance testing.</li><li>Prepare production infrastructure and deployment environments.</li><li>Configure application monitoring, logging and alerting.</li><li>Execute deployment and manage the go-live process.</li><li>Provide technical documentation and deployment guidance.</li></ul></div>
+            <div><h4>What You Get</h4><ul class="tick-list"><li>A tested and production-ready solution.</li><li>Secure and structured application deployment.</li><li>Configured monitoring and operational visibility.</li><li>Technical documentation and handover guidance.</li><li>Support throughout the launch process.</li></ul></div>
           </div>
         </div>
       </article>
@@ -1159,17 +1238,41 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <div class="st-big" aria-hidden="true">06</div>
         </div>
         <div class="st-main">
-          <p class="st-lead">We stay involved after go-live, improving the product with real usage data.</p>
+          <div><p class="st-title">Continuously Improve. Adapt. Scale.</p><p class="st-lead">Technology doesn’t stop evolving after launch, and neither should your solution. We continue to support your digital products through performance optimisation, maintenance and ongoing enhancements, helping your technology adapt as your business grows.</p></div>
           <div class="st-cols">
-            <div><h4>What we do</h4><ul class="tick-list"><li>Track usage and performance</li><li>Prioritise improvements with you</li><li>Ship enhancements regularly</li></ul></div>
-            <div><h4>What you get</h4><ul class="tick-list"><li>A continuous-improvement roadmap</li><li>Ongoing support and maintenance</li><li>Room to scale as you grow</li></ul></div>
+            <div><h4>What We Do</h4><ul class="tick-list"><li>Monitor application performance, stability and usage.</li><li>Identify opportunities for improvements and optimisation.</li><li>Maintain software, infrastructure and integrations.</li><li>Enhance existing features and introduce new capabilities.</li><li>Scale systems and infrastructure as business requirements evolve.</li></ul></div>
+            <div><h4>What You Get</h4><ul class="tick-list"><li>Ongoing technical support and maintenance.</li><li>Regular performance improvements and system updates.</li><li>A roadmap for future enhancements and development.</li><li>Scalable technology that adapts to changing requirements.</li><li>A long-term engineering partner for your digital journey.</li></ul></div>
           </div>
         </div>
       </article>
       </div>
       <p class="st-hint">Select any step to see what happens and what you get.</p>
-      <div class="cta-line"><a href="#contact" class="btn btn-primary">Start a conversation <span class="arrow">→</span></a></div>
+      <div class="cta-line"><a href="#contact" class="btn btn-primary">Start Your Project With Us <span class="arrow">→</span></a></div>
     </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="section industries-sec" id="industries">
+  <div class="container">
+    <div class="reveal visible center-head sec-head">
+      <span class="eyebrow">Industries</span>
+      <h2 class="h2">Technology Solutions Across <span class="accent">Diverse Industries.</span></h2>
+      <p class="sub center">Every industry faces different challenges, opportunities and operational demands. We apply our engineering capabilities and AI expertise to develop solutions that address the specific needs of different business sectors.</p>
+    </div>
+    <p class="ind-legend"><i></i> Highlighted industries have a featured case study below</p>
+    <div class="ind-grid">
+      <a class="ind featured reveal d1" href="#work"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-bank"/></svg></span><h3>Financial Services</h3><p>Build smarter financial operations with intelligent automation, data-driven insights and secure digital platforms.</p><span class="ind-focus">Financial Analytics · Document Processing · Workflow Automation · Reporting Solutions</span><span class="ind-badge">★ Featured case study</span></a>
+      <div class="ind reveal d2"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-heart"/></svg></span><h3>Healthcare</h3><p>Support better digital healthcare experiences with connected platforms, streamlined operations and intelligent data solutions.</p><span class="ind-focus">Healthcare Applications · Patient Management · Scheduling Systems · Data Integration</span></div>
+      <a class="ind featured reveal d3" href="#work"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-bag"/></svg></span><h3>Retail &amp; eCommerce</h3><p>Create engaging shopping experiences through intelligent personalisation, connected commerce platforms and data-driven insights.</p><span class="ind-focus">eCommerce Platforms · Recommendation Engines · Customer Analytics · Inventory Insights</span><span class="ind-badge">★ Featured case study</span></a>
+      <div class="ind reveal d1"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-truck"/></svg></span><h3>Logistics &amp; Supply Chain</h3><p>Improve operational visibility and efficiency through connected systems, intelligent automation and real-time data solutions.</p><span class="ind-focus">Fleet Management · Tracking Platforms · Process Automation · Operational Analytics</span></div>
+      <a class="ind featured reveal d2" href="#work"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-brief"/></svg></span><h3>Professional Services</h3><p>Empower service-driven businesses with intelligent workflows, automated documentation and connected business systems.</p><span class="ind-focus">Knowledge Management · Document Automation · Intelligent Reporting · Business Process Optimisation</span><span class="ind-badge">★ Featured case study</span></a>
+      <div class="ind reveal d3"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-cap"/></svg></span><h3>Education</h3><p>Enhance learning and administration through modern digital platforms and intelligent education technologies.</p><span class="ind-focus">Learning Management Systems · Student Management · Digital Learning · AI-Powered Education Tools</span></div>
+      <div class="ind reveal d1"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-factory"/></svg></span><h3>Manufacturing</h3><p>Improve production visibility and operational performance with data-driven technologies and intelligent automation.</p><span class="ind-focus">Predictive Analytics · Operational Monitoring · Process Automation · IoT Solutions</span></div>
+      <div class="ind reveal d2"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-shield"/></svg></span><h3>Insurance</h3><p>Streamline insurance operations through intelligent document handling, workflow automation and data-driven decision support.</p><span class="ind-focus">Claims Automation · Document Intelligence · Workflow Optimisation · Decision Support</span></div>
+      <div class="ind reveal d3"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-rocket"/></svg></span><h3>Startups &amp; Scaleups</h3><p>Turn innovative ideas into market-ready digital products with scalable engineering and practical technology expertise.</p><span class="ind-focus">MVP Development · Product Engineering · Scalable Architecture · Technology Strategy</span></div>
+    </div>
+    <div class="cta-line reveal"><a href="#contact" class="btn btn-primary">Discuss Your Industry Requirements <span class="arrow">→</span></a></div>
   </div>
 </section>
 
@@ -1177,9 +1280,9 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 <section class="section work-sec" id="work">
   <div class="container">
     <div class="reveal visible center-head sec-head">
-      <span class="eyebrow">Case studies</span>
-      <h2 class="h2">Selected work, <span class="accent">real results</span></h2>
-      <p class="sub center">Selected projects where <span class="hl">AI and automation</span> made a measurable difference.</p>
+      <span class="eyebrow">Featured work</span>
+      <h2 class="h2">Engineering Solutions. <span class="accent">Delivering Business Impact.</span></h2>
+      <p class="sub center">Explore how intelligent technology, thoughtful engineering and practical AI applications can solve complex business challenges and create meaningful business value.</p>
     </div>
     <div class="work-grid">
         <article class="case reveal d1">
@@ -1196,18 +1299,19 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
             </svg>
           </div>
           <div class="case-body">
-            <p class="case-kicker">Real-time analytics &amp; reporting</p>
+            <p class="case-kicker">Real-Time Analytics &amp; Intelligent Reporting</p>
             <h3>AI Business Intelligence Platform</h3>
             <div class="case-rows">
-              <div class="case-row"><b>Challenge</b><span>Reports took days to assemble from <span class="hl">disconnected data sources</span>.</span></div>
-              <div class="case-row"><b>Solution</b><span>A unified pipeline with <span class="hl">live dashboards</span> and AI-generated summaries for real-time decisions.</span></div>
+              <div class="case-row"><b>The Challenge</b><span>Business reports relied on disconnected data sources and time-consuming manual processes, delaying access to critical performance insights.</span></div>
+              <div class="case-row"><b>Our Solution</b><span>We engineered a centralised business intelligence platform combining automated data pipelines, interactive dashboards and AI-generated insights to make business reporting faster and more accessible.</span></div>
+              <div class="case-row"><b>Key Capabilities</b><span><ul class="case-caps"><li>Automated data pipelines</li><li>Centralised data management</li><li>Interactive analytics dashboards</li><li>AI-generated reporting summaries</li><li>Business performance monitoring</li></ul></span></div>
             </div>
             <div class="case-metrics">
               <div class="metric"><b>72%</b><span>Faster reporting</span></div>
               <div class="metric o"><b>40%</b><span>Less manual work</span></div>
             </div>
-            <div class="case-tech"><span>Python</span><span>PostgreSQL</span><span>AWS</span></div>
-            <a href="#contact" class="case-link">Discuss a similar project <span class="arrow">→</span></a>
+            <div class="case-tech"><span>Python</span><span>PostgreSQL</span><span>AWS</span><span>Business Intelligence</span></div>
+            <a href="#contact" class="case-link">Explore Case Study <span class="arrow">→</span></a>
           </div>
         </article>
 
@@ -1226,18 +1330,19 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
             </svg>
           </div>
           <div class="case-body">
-            <p class="case-kicker">AI agents for document automation</p>
+            <p class="case-kicker">AI-Powered Document Automation</p>
             <h3>Intelligent Document Processing</h3>
             <div class="case-rows">
-              <div class="case-row"><b>Challenge</b><span>Teams manually reviewed <span class="hl">thousands of financial documents</span>.</span></div>
-              <div class="case-row"><b>Solution</b><span>AI agents that <span class="hl">classify, extract and validate</span> data, escalating only exceptions to people.</span></div>
+              <div class="case-row"><b>The Challenge</b><span>Financial teams were spending significant time manually reviewing, classifying and extracting information from large volumes of documents, creating operational bottlenecks.</span></div>
+              <div class="case-row"><b>Our Solution</b><span>We developed an intelligent document processing solution using AI agents to classify documents, extract relevant information and validate data automatically, with exceptions routed for human review.</span></div>
+              <div class="case-row"><b>Key Capabilities</b><span><ul class="case-caps"><li>Automated document classification</li><li>AI-powered information extraction</li><li>Intelligent data validation</li><li>Context-aware document understanding</li><li>Automated workflow orchestration</li><li>Human-in-the-loop exception handling</li></ul></span></div>
             </div>
             <div class="case-metrics">
               <div class="metric"><b>85%</b><span>Faster processing</span></div>
               <div class="metric o"><b>99.2%</b><span>Data accuracy</span></div>
             </div>
-            <div class="case-tech"><span>OpenAI</span><span>LangChain</span><span>RAG</span></div>
-            <a href="#contact" class="case-link">Discuss a similar project <span class="arrow">→</span></a>
+            <div class="case-tech"><span>OpenAI</span><span>LangChain</span><span>RAG</span><span>Python</span><span>AI Agents</span></div>
+            <a href="#contact" class="case-link">Explore Case Study <span class="arrow">→</span></a>
           </div>
         </article>
 
@@ -1256,48 +1361,28 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
             </svg>
           </div>
           <div class="case-body">
-            <p class="case-kicker">Real-time recommendations</p>
+            <p class="case-kicker">Real-Time Product Recommendations</p>
             <h3>AI Personalisation Engine</h3>
             <div class="case-rows">
-              <div class="case-row"><b>Challenge</b><span>Generic listings weren't turning <span class="hl">browsing into orders</span>.</span></div>
-              <div class="case-row"><b>Solution</b><span>A real-time engine that adapts recommendations to <span class="hl">each shopper's behaviour</span>.</span></div>
+              <div class="case-row"><b>The Challenge</b><span>Generic product recommendations were failing to reflect individual customer preferences and shopping behaviour, limiting opportunities to improve engagement and conversions.</span></div>
+              <div class="case-row"><b>Our Solution</b><span>We engineered an AI-powered personalisation engine that analyses customer interactions and browsing behaviour to deliver relevant product recommendations in real time, creating more personalised shopping experiences.</span></div>
+              <div class="case-row"><b>Key Capabilities</b><span><ul class="case-caps"><li>Customer behaviour analysis</li><li>Personalised product recommendations</li><li>Real-time recommendation delivery</li><li>Low-latency data processing</li><li>eCommerce platform integration</li><li>Continuous recommendation optimisation</li></ul></span></div>
             </div>
             <div class="case-metrics">
               <div class="metric"><b>35%</b><span>Conversion lift</span></div>
               <div class="metric o"><b>28%</b><span>Higher order value</span></div>
             </div>
-            <div class="case-tech"><span>Python</span><span>Redis</span><span>React</span></div>
-            <a href="#contact" class="case-link">Discuss a similar project <span class="arrow">→</span></a>
+            <div class="case-tech"><span>Python</span><span>Redis</span><span>React</span><span>Machine Learning</span></div>
+            <a href="#contact" class="case-link">Explore Case Study <span class="arrow">→</span></a>
           </div>
         </article>
-    </div>
-  </div>
-</section>
 
-<!-- INDUSTRIES -->
-<section class="section industries-sec" id="industries">
-  <div class="container">
-    <div class="reveal visible center-head sec-head">
-      <span class="eyebrow">Industries</span>
-      <h2 class="h2">Industries we <span class="accent">build for</span></h2>
-      <p class="sub center">Every industry has its own data, rules and pressure points. Here is where we focus, and where AI can help most.</p>
     </div>
-    <p class="ind-legend"><i></i> Highlighted industries have a featured case study above</p>
-    <div class="ind-grid">
-        <a class="ind featured reveal d1" href="#work"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-bank"/></svg></span><h3>Financial Services</h3><p>Document automation, fraud signals and reporting.</p><span class="ind-badge">★ Featured case study</span></a>
-        <div class="ind reveal d2"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-heart"/></svg></span><h3>Healthcare</h3><p>Secure portals, scheduling and clinical data pipelines.</p></div>
-        <a class="ind featured reveal d3" href="#work"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-bag"/></svg></span><h3>Retail &amp; eCommerce</h3><p>Personalisation, demand insight and storefront performance.</p><span class="ind-badge">★ Featured case study</span></a>
-        <div class="ind reveal d4"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-truck"/></svg></span><h3>Logistics</h3><p>Route, fleet and warehouse visibility with live data.</p></div>
-        <a class="ind featured reveal d1" href="#work"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-brief"/></svg></span><h3>Professional Services</h3><p>Analytics, knowledge search and workflow automation.</p><span class="ind-badge">★ Featured case study</span></a>
-        <div class="ind reveal d2"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-cap"/></svg></span><h3>Education</h3><p>Learning platforms, content tools and student insights.</p></div>
-        <div class="ind reveal d3"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-factory"/></svg></span><h3>Manufacturing</h3><p>Predictive maintenance, quality insight and IoT dashboards.</p></div>
-        <div class="ind reveal d4"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-home"/></svg></span><h3>Real Estate</h3><p>Listing platforms, valuation models and lead automation.</p></div>
-        <div class="ind reveal d1"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-shield"/></svg></span><h3>Insurance</h3><p>Claims triage, underwriting support and self-service.</p></div>
-        <div class="ind reveal d2"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-plane"/></svg></span><h3>Travel &amp; Hospitality</h3><p>Booking engines, guest personalisation and concierge agents.</p></div>
-        <div class="ind reveal d3"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-zap"/></svg></span><h3>Energy &amp; Utilities</h3><p>Usage analytics, asset monitoring and field-service apps.</p></div>
-        <div class="ind reveal d4"><span class="ind-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-rocket"/></svg></span><h3>Startups &amp; Scaleups</h3><p>From MVP to scale: product engineering that grows with you.</p></div>
+    <div class="work-cta reveal">
+      <h3>Have a similar challenge in your business?</h3>
+      <p>Let’s explore how the right technology can help you achieve better outcomes.</p>
+      <a href="#contact" class="btn btn-primary">Discuss Your Project <span class="arrow">→</span></a>
     </div>
-    <div class="cta-line reveal"><p class="sub center" style="margin-bottom:20px">Don't see your industry? Most of what we build applies across sectors — <span class="hl-b">tell us about yours</span>.</p><a href="#contact" class="btn btn-primary">Talk to an Expert <span class="arrow">→</span></a></div>
   </div>
 </section>
 
@@ -1305,93 +1390,33 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 <section class="section tech-sec" id="tech">
   <div class="container">
     <div class="reveal visible center-head sec-head">
-      <span class="eyebrow">Technology Stack</span>
-      <h2 class="h2">Built with modern, <span class="accent">battle-tested tools.</span></h2>
-      <p class="sub center">44+ technologies across six layers — the tools our engineers use every day to ship reliable, scalable products.</p>
+      <span class="eyebrow">Our technology expertise</span>
+      <h2 class="h2">Powered by Modern Technologies. <span class="accent">Built for What’s Next.</span></h2>
+      <p class="sub center">We work with modern frameworks, cloud platforms, AI technologies and engineering tools to develop solutions that are reliable, scalable and ready for evolving business needs.</p>
+      <p class="sub center" style="margin-top:10px">Our technology choices are driven by your business requirements, performance expectations and long-term objectives — not simply by what’s trending.</p>
     </div>
     <div class="tech-cats">
-      <article class="tech-cat reveal d1"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-cpu"/></svg></span><div><h3>AI &amp; LLMs</h3><small>Models, agents and retrieval</small></div></div><div class="tc-pills"><span>OpenAI</span><span>Anthropic Claude</span><span>LangChain</span><span>LlamaIndex</span><span>RAG</span><span>Hugging Face</span><span>PyTorch</span><span>TensorFlow</span><span>Pinecone</span></div></article>
-      <article class="tech-cat reveal d2"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-layout"/></svg></span><div><h3>Frontend</h3><small>Fast, polished interfaces</small></div></div><div class="tc-pills"><span>React</span><span>Next.js</span><span>Vue.js</span><span>Angular</span><span>TypeScript</span><span>Tailwind CSS</span></div></article>
-      <article class="tech-cat reveal d3"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-code"/></svg></span><div><h3>Backend &amp; APIs</h3><small>Reliable services that scale</small></div></div><div class="tc-pills"><span>Node.js</span><span>Python</span><span>.NET</span><span>Java</span><span>FastAPI</span><span>Django</span><span>GraphQL</span><span>REST APIs</span></div></article>
-      <article class="tech-cat reveal d1"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-phone"/></svg></span><div><h3>Mobile</h3><small>iOS and Android apps</small></div></div><div class="tc-pills"><span>React Native</span><span>Flutter</span><span>Swift</span><span>Kotlin</span></div></article>
-      <article class="tech-cat reveal d2"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-cloud"/></svg></span><div><h3>Cloud &amp; DevOps</h3><small>Ship faster, safely</small></div></div><div class="tc-pills"><span>AWS</span><span>Azure</span><span>Google Cloud</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>GitHub Actions</span><span>Jenkins</span></div></article>
-      <article class="tech-cat reveal d3"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-chart"/></svg></span><div><h3>Data &amp; Databases</h3><small>Pipelines you can trust</small></div></div><div class="tc-pills"><span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>MySQL</span><span>Snowflake</span><span>Kafka</span><span>Elasticsearch</span><span>Airflow</span><span>Power BI</span></div></article>
+      <article class="tech-cat reveal d1"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-cpu"/></svg></span><div><h3>AI &amp; Machine Learning</h3><small>Models, agents and retrieval</small></div></div><div class="tc-pills"><span>OpenAI</span><span>Anthropic</span><span>LangChain</span><span>LlamaIndex</span><span>PyTorch</span><span>TensorFlow</span><span>Hugging Face</span></div></article>
+      <article class="tech-cat reveal d2"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-layout"/></svg></span><div><h3>Frontend Development</h3><small>Fast, polished interfaces</small></div></div><div class="tc-pills"><span>React</span><span>Next.js</span><span>Vue.js</span><span>Angular</span><span>TypeScript</span><span>JavaScript</span></div></article>
+      <article class="tech-cat reveal d3"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-code"/></svg></span><div><h3>Backend Development</h3><small>Reliable services that scale</small></div></div><div class="tc-pills"><span>Node.js</span><span>Python</span><span>.NET</span><span>Java</span><span>FastAPI</span><span>Django</span></div></article>
+      <article class="tech-cat reveal d1"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-phone"/></svg></span><div><h3>Mobile Development</h3><small>iOS and Android apps</small></div></div><div class="tc-pills"><span>React Native</span><span>Flutter</span><span>Swift</span><span>Kotlin</span><span>Firebase</span></div></article>
+      <article class="tech-cat reveal d2"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-cloud"/></svg></span><div><h3>Cloud &amp; DevOps</h3><small>Ship faster, safely</small></div></div><div class="tc-pills"><span>AWS</span><span>Microsoft Azure</span><span>Google Cloud</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>GitHub Actions</span></div></article>
+      <article class="tech-cat reveal d3"><div class="tc-head"><span class="tc-ico"><svg class="ic-svg" aria-hidden="true"><use href="#i-chart"/></svg></span><div><h3>Data &amp; Databases</h3><small>Pipelines you can trust</small></div></div><div class="tc-pills"><span>PostgreSQL</span><span>MongoDB</span><span>MySQL</span><span>Redis</span><span>Snowflake</span><span>Apache Kafka</span></div></article>
     </div>
-    <div class="tech-banner reveal"><p>Already run a different stack? <span>We adapt to what you use</span> and choose the right tool for the job.</p><a href="#contact" class="btn btn-orange">Talk to an Expert <span class="arrow">→</span></a></div>
+    <div class="tech-banner reveal"><p>We select <span>the right technologies for the right challenges</span>, creating solutions that are maintainable, adaptable and engineered for long-term success.</p></div>
   </div>
-</section>
-
-<!-- WHY -->
-<section class="section why-sec" id="why">
-  <div class="container">
-    <div class="reveal visible center-head">
-      <span class="eyebrow">Why AksharNova</span>
-      <h2 class="h2">Built different. <span class="accent">Built better.</span></h2>
-    </div>
-    <div class="why-grid">
-      <div class="why-card reveal d1"><div class="num">01</div><h4>AI-Native Thinking</h4><p>Intelligence and automation <span class="hl">designed in from day one</span>, not bolted on later.</p></div>
-      <div class="why-card reveal d2"><div class="num">02</div><h4>Engineering Excellence</h4><p>Reliable, maintainable systems built to <span class="hl">stand the test of time</span>.</p></div>
-      <div class="why-card reveal d3"><div class="num">03</div><h4>Business First</h4><p>Every build is tied to a <span class="hl">measurable business outcome</span>.</p></div>
-      <div class="why-card reveal d4"><div class="num">04</div><h4>Security by Design</h4><p><span class="hl">Security</span> practices embedded at every stage of delivery.</p></div>
-      <div class="why-card reveal d5"><div class="num">05</div><h4>Built to Scale</h4><p>Architecture designed for <span class="hl">tomorrow's load</span>, not just today's.</p></div>
-      <div class="why-card reveal d6"><div class="num">06</div><h4>Long-Term Partnership</h4><p>We stay involved <span class="hl">well beyond launch</span> as your product evolves.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="section testi-sec" id="testimonials">
-  <canvas class="testi-canvas" id="testiCanvas" aria-hidden="true"></canvas>
-  <div class="container">
-    <div class="reveal visible center-head sec-head">
-      <span class="eyebrow">Testimonials</span>
-      <h2 class="h2">Feedback from the teams <span class="accent">we've built with</span></h2>
-      <p class="sub center">Sample feedback shown for layout — replace with real client quotes before publishing.</p>
-    </div>
-  </div>
-  <div class="t-marquee" id="tMarquee" aria-label="Client testimonials">
-    <div class="t-track">
-      <div class="t-group">
-          <figure class="t-card"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“AksharNova took a vague idea and turned it into <span class="hl">a working AI product in weeks</span>. Communication was clear throughout.”</blockquote>
-            <figcaption class="testi-author"><span class="av ">SM</span><span><span class="name" style="display:block">Lalit Patel</span><span class="role">CEO, Shreya Sales Corporation</span></span></figcaption></figure>
-          <figure class="t-card"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“Their engineers <span class="hl">understood our domain quickly</span> and delivered automation that genuinely saves our team hours every day.”</blockquote>
-            <figcaption class="testi-author"><span class="av o">JR</span><span><span class="name" style="display:block">Dhruv Patel.</span><span class="role">CTO.</span></span></figcaption></figure>
-          <figure class="t-card"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“A rare team that combines strong engineering with <span class="hl">real business sense</span>. We now treat them as an extension of our own team.”</blockquote>
-            <figcaption class="testi-author"><span class="av n">ET</span><span><span class="name" style="display:block">Emily T.</span><span class="role">Founder, Example Retail Group</span></span></figcaption></figure>
-          <figure class="t-card" aria-hidden="true"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“AksharNova took a vague idea and turned it into <span class="hl">a working AI product in weeks</span>. Communication was clear throughout.”</blockquote>
-            <figcaption class="testi-author"><span class="av ">SM</span><span><span class="name" style="display:block">Sarah M.</span><span class="role">CEO, Example Fintech Ltd</span></span></figcaption></figure>
-          <figure class="t-card" aria-hidden="true"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“Their engineers <span class="hl">understood our domain quickly</span> and delivered automation that genuinely saves our team hours every day.”</blockquote>
-            <figcaption class="testi-author"><span class="av o">JR</span><span><span class="name" style="display:block">James R.</span><span class="role">CTO, Example Logistics Co.</span></span></figcaption></figure>
-          <figure class="t-card" aria-hidden="true"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“A rare team that combines strong engineering with <span class="hl">real business sense</span>. We now treat them as an extension of our own team.”</blockquote>
-            <figcaption class="testi-author"><span class="av n">ET</span><span><span class="name" style="display:block">Emily T.</span><span class="role">Founder, Example Retail Group</span></span></figcaption></figure>
-      </div>
-      <div class="t-group" aria-hidden="true">
-          <figure class="t-card"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“AksharNova took a vague idea and turned it into <span class="hl">a working AI product in weeks</span>. Communication was clear throughout.”</blockquote>
-            <figcaption class="testi-author"><span class="av ">SM</span><span><span class="name" style="display:block">Sarah M.</span><span class="role">CEO, Example Fintech Ltd</span></span></figcaption></figure>
-          <figure class="t-card"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“Their engineers <span class="hl">understood our domain quickly</span> and delivered automation that genuinely saves our team hours every day.”</blockquote>
-            <figcaption class="testi-author"><span class="av o">JR</span><span><span class="name" style="display:block">James R.</span><span class="role">CTO, Example Logistics Co.</span></span></figcaption></figure>
-          <figure class="t-card"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“A rare team that combines strong engineering with <span class="hl">real business sense</span>. We now treat them as an extension of our own team.”</blockquote>
-            <figcaption class="testi-author"><span class="av n">ET</span><span><span class="name" style="display:block">Emily T.</span><span class="role">Founder, Example Retail Group</span></span></figcaption></figure>
-          <figure class="t-card" aria-hidden="true"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“AksharNova took a vague idea and turned it into <span class="hl">a working AI product in weeks</span>. Communication was clear throughout.”</blockquote>
-            <figcaption class="testi-author"><span class="av ">SM</span><span><span class="name" style="display:block">Sarah M.</span><span class="role">CEO, Example Fintech Ltd</span></span></figcaption></figure>
-          <figure class="t-card" aria-hidden="true"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“Their engineers <span class="hl">understood our domain quickly</span> and delivered automation that genuinely saves our team hours every day.”</blockquote>
-            <figcaption class="testi-author"><span class="av o">JR</span><span><span class="name" style="display:block">James R.</span><span class="role">CTO, Example Logistics Co.</span></span></figcaption></figure>
-          <figure class="t-card" aria-hidden="true"><span class="t-quote-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6C6.5 7 4 9.800 4 14v4h6v-6H7c0-2.200 1.200-3.600 3-4.300zM19.500 6C16.500 7 14 9.800 14 14v4h6v-6h-3c0-2.200 1.200-3.600 3-4.300z"/></svg></span><blockquote class="quote">“A rare team that combines strong engineering with <span class="hl">real business sense</span>. We now treat them as an extension of our own team.”</blockquote>
-            <figcaption class="testi-author"><span class="av n">ET</span><span><span class="name" style="display:block">Emily T.</span><span class="role">Founder, Example Retail Group</span></span></figcaption></figure>
-      </div>
-    </div>
-  </div>
-  <button type="button" class="t-toggle" id="tToggle" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><span>Pause scrolling</span></button>
 </section>
 
 <!-- CTA -->
 <section class="cta-sec">
   <div class="container cta-inner reveal visible">
-    <h2>Ready to <span class="hl">build what's next</span>?</h2>
-    <p>Tell us what you're trying to achieve — we'll help you turn it into a <span class="hl">practical technology roadmap</span>.</p>
+    <span class="cta-label">Let’s build something better</span>
+    <h2>Your Next Big Idea Deserves the Right <span class="hl">Technology Partner.</span></h2>
+    <p>Whether you’re exploring AI, automating business processes, developing a new digital product or modernising existing systems, AksharNova is ready to help you take the next step.</p>
+    <p>Let’s discuss your goals and explore how the right technology can create new opportunities for your business.</p>
     <div class="cta-actions">
       <a href="#contact" class="btn btn-orange">Start a Conversation <span class="arrow">→</span></a>
-      <a href="#services" class="btn btn-ghost" style="background:transparent;border-color:rgba(255,255,255,0.25);color:#fff;">View Services <span class="arrow">→</span></a>
+      <a href="#services" class="btn btn-ghost" style="background:transparent;border-color:rgba(255,255,255,0.25);color:#fff;">Explore Our Services <span class="arrow">→</span></a>
     </div>
   </div>
 </section>
@@ -1400,42 +1425,39 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
 <section class="section contact-sec" id="contact">
   <div class="container">
     <div class="reveal visible center-head sec-head">
-      <span class="eyebrow">Contact</span>
-      <h2 class="h2">Let's build something <span class="accent">intelligent.</span></h2>
-      <p class="sub center">Tell us what you're trying to achieve. Send us an email and we'll reply <span class="hl">within 24 hours</span>.</p>
+      <span class="eyebrow">Get in touch</span>
+      <h2 class="h2">Let’s Talk About <span class="accent">What You Want to Build.</span></h2>
+      <p class="sub center">Have a project in mind or looking for the right technology partner? Tell us about your business challenges, ideas or technology goals. Our team will be happy to understand your requirements and discuss how we can help.</p>
+      <p class="sub center" style="margin-top:10px">Whether you have a clearly defined project or are still exploring possibilities, let’s start a conversation.</p>
     </div>
-    <div class="mail-panel reveal">
-      <div class="mail-main">
-        <span class="mail-ico"><svg class="ic-svg" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3 7.5 9 6 9-6"/></svg></span>
-        <h3>Email us directly</h3>
-        <p>Based in the UK, working with ambitious businesses everywhere. Early-stage ideas are welcome.</p>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Contact Information</h3>
+        <p>Email us directly, or use the form and we’ll take it from there.</p>
         <div class="mail-rows">
-          <div class="mail-row"><a href="mailto:ketanp@aksharnova.com">ketanp@aksharnova.com</a><button type="button" class="mail-copy" data-copy="ketanp@aksharnova.com">Copy</button></div>
+          <div class="mail-row"><a href="mailto:ketan@aksharnova.com">ketan@aksharnova.com</a><button type="button" class="mail-copy" data-copy="ketan@aksharnova.com">Copy</button></div>
           <div class="mail-row"><a href="mailto:hiten@aksharnova.com">hiten@aksharnova.com</a><button type="button" class="mail-copy" data-copy="hiten@aksharnova.com">Copy</button></div>
         </div>
-        <a class="btn btn-orange" data-mail="ketanp@aksharnova.com,hiten@aksharnova.com" href="mailto:ketanp@aksharnova.com,hiten@aksharnova.com?subject=Project%20enquiry">Send an email <span class="arrow">→</span></a>
-        <p class="mail-addr"><svg class="ic-svg" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>5 Ivanhoe Drive, HA3 8QR, UK</span></p>
+        <div class="contact-row"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span><b style="color:#fff">Location</b><br>United Kingdom</span></div>
+        <div class="contact-row"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><span><b style="color:#fff">Response time</b><br>We aim to respond to enquiries within one business day.</span></div>
       </div>
-      <div class="mail-side">
-        <h4>To help us reply faster, include:</h4>
-        <ul class="tick-list">
-          <li>What you want to build, automate or improve</li>
-          <li>Your rough timeline</li>
-          <li>Any existing systems or tools we should know about</li>
-          <li>The best way to reach you</li>
-        </ul>
-        <p class="mail-hint">No mail app on this device? Use <b>Copy</b> and paste the address into your email.</p>
-      </div>
+      <form class="contact-form reveal" id="contactForm" data-mail="hiten@aksharnova.com" data-endpoint="https://formspree.io/f/xyewwblk" data-success="Thank you for getting in touch with AksharNova. We’ve received your enquiry and will be in touch soon.">
+        <h3>Tell Us About Your Project.</h3>
+        <div class="form-row">
+          <div class="field" style="margin-bottom:0"><label for="cName">Full Name</label><input type="text" id="cName" name="name" autocomplete="name" required></div>
+          <div class="field" style="margin-bottom:0"><label for="cEmail">Business Email</label><input type="email" id="cEmail" name="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="cPhone">Contact Number (optional)</label><input type="tel" id="cPhone" name="phone" autocomplete="tel"></div>
+        <div class="field"><label for="cMessage">Tell Us About Your Project</label><textarea id="cMessage" name="message" required></textarea></div>
+        <button type="submit" class="btn btn-primary">Send Your Enquiry <span class="arrow">→</span></button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
     </div>
   </div>
 </section>
 
 <footer class="footer">
   <div class="container">
-    <div class="f-cta">
-      <div><h3>Have a project in mind?</h3><p>Tell us what you want to build, automate or improve — we'll reply within 24 hours.</p></div>
-      <a href="#contact" class="btn btn-orange">Start a Conversation <span class="arrow">→</span></a>
-    </div>
     <div class="footer-top">
       <div>
         <div class="footer-brand">
@@ -1443,32 +1465,30 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
           <img class="brand-logo" src="images/logo-light.png" alt="AksharNova" onerror="this.parentNode.classList.add('no-logo');this.remove()">
           <span class="brand-fallback"><span class="mark">AN</span>AksharNova</span>
         </div>
-        <p class="footer-blurb">Innovate. Automate. Elevate. A UK-based team building AI-powered software, automation and digital platforms for ambitious businesses.</p>
+        <p class="footer-tag">Intelligent Engineering. Meaningful Innovation.</p>
+        <p class="footer-blurb">We engineer intelligent digital solutions that help businesses innovate, automate operations and grow with confidence.</p>
+        <p class="footer-blurb">From AI-powered applications and intelligent automation to custom software and cloud engineering, we help turn complex business challenges into scalable technology solutions.</p>
         <div class="f-social">
-          <!-- Replace the # links with your real profile URLs -->
+          <!-- Replace the # link with your real LinkedIn URL -->
           <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
-          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.500.08-1.250-.27-2.480-1-3.500.28-1.150.28-2.350 0-3.500 0 0-1 0-3 1.500-2.640-.5-5.360-.5-8 0C6 2 5 2 5 2c-.3 1.150-.3 2.350 0 3.500A5.400 5.400 0 0 0 4 9c0 3.500 3 5.500 6 5.500-.39.490-.68 1.050-.85 1.650-.17.600-.22 1.230-.15 1.850v4"/><path d="M9 18c-4.510 2-5-2-7-2"/></svg></a>
-          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
-          <a href="mailto:ketanp@aksharnova.com" aria-label="Email us"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.500"/><path d="m3 7.500 9 6 9-6"/></svg></a>
+          <a href="mailto:ketan@aksharnova.com" aria-label="Email us"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.500"/><path d="m3 7.500 9 6 9-6"/></svg></a>
         </div>
       </div>
-      <div class="footer-col"><h4>Services</h4><ul><li><a href="#services">AI &amp; Machine Learning</a></li><li><a href="#services">Generative AI &amp; LLMs</a></li><li><a href="#services">AI Agents &amp; Automation</a></li><li><a href="#services">Custom Software Development</a></li><li><a href="#services">Web Application Development</a></li><li><a href="#services">Mobile App Development</a></li><li><a href="#services">Cloud &amp; DevOps</a></li><li><a href="#services">Data &amp; Analytics</a></li><li><a href="#services">API &amp; System Integration</a></li></ul></div>
-      <div class="footer-col"><h4>Industries</h4><ul><li><a href="#industries">Financial Services</a></li><li><a href="#industries">Healthcare</a></li><li><a href="#industries">Retail &amp; eCommerce</a></li><li><a href="#industries">Logistics</a></li><li><a href="#industries">Professional Services</a></li><li><a href="#industries">Education</a></li><li><a href="#industries">Manufacturing</a></li><li><a href="#industries">Insurance</a></li><li><a href="#industries">Startups &amp; Scaleups</a></li></ul></div>
-      <div class="footer-col"><h4>Company</h4><ul><li><a href="#why">About / Why AksharNova</a></li><li><a href="#process">How We Work</a></li><li><a href="#work">Our Work</a></li><li><a href="#industries">Industries</a></li><li><a href="#tech">Technology Stack</a></li><li><a href="#testimonials">Testimonials</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="#">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#services">Our Services</a></li><li><a href="#process">How We Work</a></li><li><a href="#industries">Industries</a></li><li><a href="#work">Case Studies</a></li><li><a href="#contact">Contact Us</a></li></ul></div>
+      <div class="footer-col"><h4>Our Services</h4><ul><li><a href="#services">AI &amp; Machine Learning</a></li><li><a href="#services">AI Agents &amp; Automation</a></li><li><a href="#services">Custom Software Development</a></li><li><a href="#services">Mobile App Development</a></li><li><a href="#services">Cloud &amp; DevOps Engineering</a></li><li><a href="#services">Data Engineering &amp; Analytics</a></li></ul></div>
       <div class="footer-col footer-office">
-        <h4>Office</h4>
-        <b>United Kingdom</b>
-        <p>5 Ivanhoe Drive, HA3 8QR, UK</p>
+        <h4>Get In Touch</h4>
         <b>Email</b>
-        <p><a href="mailto:ketanp@aksharnova.com">ketanp@aksharnova.com</a><br><a href="mailto:hiten@aksharnova.com">hiten@aksharnova.com</a></p>
-        <span class="f-note">Typical reply within 24 hours</span>
+        <p><a href="mailto:ketan@aksharnova.com">ketan@aksharnova.com</a><br><a href="mailto:hiten@aksharnova.com">hiten@aksharnova.com</a></p>
+        <b>Location</b>
+        <p>United Kingdom</p>
+        <span class="f-note">We aim to reply within one business day</span>
       </div>
     </div>
-    <div class="f-tech"><b>Technologies</b><span>OpenAI</span><span>LangChain</span><span>React</span><span>Next.js</span><span>Node.js</span><span>Python</span><span>.NET</span><span>TypeScript</span><span>AWS</span><span>Azure</span><span>Google Cloud</span><span>Kubernetes</span><span>Terraform</span><span>PostgreSQL</span><span>MongoDB</span></div>
     <div class="f-mark" aria-hidden="true">AksharNova</div>
     <div class="footer-bottom">
-      <p>&copy; 2026 AksharNova. All rights reserved.</p>
-      <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Cookie Policy</a><a href="#">Terms</a></div>
+      <p>Copyright &copy; 2026 AksharNova. All rights reserved.</p>
+      <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Cookie Policy</a></div>
     </div>
   </div>
 </footer>
@@ -1478,17 +1498,17 @@ h1 .hl,h2 .hl,h3 .hl,h4 .hl,h1 .hl-b,h2 .hl-b,h3 .hl-b,h4 .hl-b{font-weight:inhe
   <div class="svc-panel">
     <div class="dlg-head">
       <span class="dlg-ico"><svg class="ic-svg" aria-hidden="true"><use href="#s-cpu"/></svg></span>
-      <div><small>Our services</small><h3 id="svcTitle"></h3></div>
+      <div><small>Our Services</small><h3 id="svcTitle"></h3></div>
       <button type="button" class="dlg-close" data-close aria-label="Close dialog">×</button>
     </div>
     <div class="dlg-body">
       <p class="dlg-lead"></p>
       <div class="dlg-cols">
-        <div><h4>What we deliver</h4><ul class="tick-list dlg-list"></ul></div>
-        <div><h4>Typical stack</h4><div class="dlg-tags"></div><h4>Who it's for</h4><p class="dlg-fit"></p></div>
+        <div><h4>What We Deliver</h4><ul class="tick-list dlg-list"></ul></div>
+        <div><h4>Typical Stack</h4><div class="dlg-tags"></div><h4>Who’s It For?</h4><p class="dlg-fit"></p></div>
       </div>
       <div class="dlg-actions">
-        <a href="#contact" class="btn btn-primary" data-discuss>Discuss this service <span class="arrow">→</span></a>
+        <a href="#contact" class="btn btn-primary" data-discuss>Discuss This Service <span class="arrow">→</span></a>
         <button type="button" class="btn btn-ghost" data-close>Close</button>
       </div>
     </div>
@@ -1531,7 +1551,6 @@ function createNetwork(canvas,options){
   if(reduce){draw();}else{const vis=new IntersectionObserver(es=>es.forEach(e=>{e.isIntersecting?start():stop();}),{threshold:0});vis.observe(canvas);}
   window.addEventListener('resize',()=>{resize();seed();if(reduce)draw();});
 }
-createNetwork(document.getElementById('testiCanvas'));
 
 /* ---- Copy email buttons ---- */
 document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('click',async()=>{
@@ -1557,7 +1576,7 @@ document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('clic
 
 /* ---- Service "Learn more" dialog ---- */
 (function(){
-  const DATA={"ai": {"icon": "s-cpu", "topic": "ai", "title": "AI & Machine Learning", "lead": "We design and ship machine-learning and generative-AI features that solve a specific business problem — from forecasting and classification to search and copilots — and we build them to run reliably in production.", "deliver": ["Use-case discovery and feasibility assessment", "Generative AI features: chat, summarisation and search (RAG)", "Predictive and classification models trained on your data", "Evaluation, monitoring and guardrails for model quality", "Secure deployment on the cloud you already use"], "stack": ["OpenAI", "LangChain", "RAG", "Python", "PostgreSQL"], "fit": "Best for teams that have data and a clear problem, but need help turning it into a dependable product."}, "agents": {"icon": "i-bot", "topic": "ai", "title": "AI Agents & Automation", "lead": "Autonomous agents and workflow automation that take repetitive, rules-heavy work off your team — reading documents, updating systems, and flagging only what genuinely needs a human decision.", "deliver": ["Process mapping to find the best automation candidates", "Agents that use tools and APIs to complete multi-step tasks", "Human review steps for high-stakes decisions", "Integrations with your CRM, ERP, email and internal tools", "Audit trails and monitoring so you can trust what runs"], "stack": ["LangChain", "OpenAI", "Node.js", "Python", "Redis"], "fit": "Best for operations-heavy teams spending hours on manual, repeatable tasks."}, "software": {"icon": "s-window", "topic": "software", "title": "Custom Software", "lead": "Web and enterprise platforms engineered around your exact workflows — designed for maintainability, security and the growth you expect over the next few years.", "deliver": ["Product discovery and solution architecture", "Web apps, customer portals and internal tools", "APIs and third-party integrations", "Automated testing and CI/CD from day one", "Documentation, handover and ongoing support"], "stack": ["React", "Next.js", "Node.js", ".NET", "TypeScript", "PostgreSQL"], "fit": "Best for businesses outgrowing spreadsheets or off-the-shelf tools that no longer fit."}, "mobile": {"icon": "i-phone", "topic": "mobile", "title": "Mobile App Development", "lead": "Native and cross-platform apps for iOS and Android with polished UX, offline-friendly behaviour and the backend they need to scale.", "deliver": ["UX design and clickable prototypes", "iOS and Android delivery, native or cross-platform", "Secure sign-in, push notifications and payments", "App Store and Google Play release support", "Analytics and iteration after launch"], "stack": ["iOS", "Android", "React", "TypeScript", "Node.js"], "fit": "Best for teams launching a new app or modernising an existing one."}, "cloud": {"icon": "i-cloud", "topic": "cloud", "title": "Cloud & DevOps", "lead": "Modern, cost-aware infrastructure with automated delivery pipelines, so your team ships faster and your systems stay reliable under load.", "deliver": ["Cloud architecture and migration", "Infrastructure as code", "CI/CD pipelines and container orchestration", "Monitoring, alerting and incident readiness", "Security hardening and cost optimisation"], "stack": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform"], "fit": "Best for teams facing slow releases, rising cloud bills or reliability issues."}, "data": {"icon": "i-chart", "topic": "data", "title": "Data & Analytics", "lead": "Pipelines, warehousing and dashboards that bring scattered data together, so decisions are based on numbers people trust.", "deliver": ["Data audit and modelling", "ETL/ELT pipelines from multiple sources", "Warehouse and lakehouse setup", "Dashboards and self-serve reporting", "Data quality checks and governance"], "stack": ["Python", "PostgreSQL", "MongoDB", "AWS", "Azure"], "fit": "Best for organisations with data spread across tools and no single source of truth."}};
+  const DATA={"ai": {"icon": "s-cpu", "topic": "ai", "title": "AI & Machine Learning", "lead": "We develop intelligent AI and machine learning solutions that help businesses automate complex processes, extract valuable insights and make better-informed decisions. From generative AI applications and predictive models to intelligent search systems, we engineer solutions designed for real-world business applications.", "deliver": ["AI strategy, use-case discovery and feasibility assessment.", "Generative AI applications, including chatbots, copilots and intelligent search.", "Custom machine learning and predictive analytics models.", "Retrieval-Augmented Generation (RAG) and knowledge-based AI systems.", "Model evaluation, performance monitoring and optimisation.", "Secure AI integration and production deployment."], "stack": ["OpenAI", "Anthropic", "Python", "LangChain", "LlamaIndex", "TensorFlow", "PyTorch", "PostgreSQL"], "fit": "Ideal for businesses looking to leverage AI, unlock the potential of their data, improve decision-making and introduce intelligent capabilities into existing products and operations."}, "agents": {"icon": "i-bot", "topic": "ai", "title": "AI Agents & Automation", "lead": "We build intelligent AI agents and automated workflows that help businesses simplify operations, reduce manual effort and improve productivity. From autonomous task execution to connected business processes, our solutions enable teams to work smarter while maintaining control and visibility.", "deliver": ["AI agent strategy and workflow assessment.", "Custom AI agents for business-specific tasks.", "Multi-agent systems and intelligent task orchestration.", "Business process and workflow automation.", "Integration with existing applications, APIs and business tools.", "Human-in-the-loop controls, monitoring and performance optimisation."], "stack": ["OpenAI", "Anthropic", "LangChain", "LangGraph", "Python", "n8n", "API Integrations", "PostgreSQL"], "fit": "Ideal for businesses looking to automate repetitive operations, streamline complex workflows and increase team productivity through intelligent automation."}, "software": {"icon": "s-window", "topic": "software", "title": "Custom Software Development", "lead": "We design and develop custom software that aligns with your business processes, operational requirements and long-term objectives. From web applications and enterprise platforms to complex backend systems, we build reliable, scalable solutions that give your business greater flexibility and control.", "deliver": ["Business requirements analysis and solution architecture.", "Custom web application and platform development.", "Enterprise software and business management systems.", "Backend development and API engineering.", "Third-party software and system integrations.", "Software testing, optimisation and ongoing maintenance."], "stack": ["React", "Next.js", "Node.js", "Python", ".NET", "Java", "PostgreSQL", "MongoDB"], "fit": "Ideal for startups, growing businesses and enterprises that need tailored software to improve operations, replace outdated systems or launch new digital products."}, "mobile": {"icon": "i-phone", "topic": "mobile", "title": "Mobile App Development", "lead": "We create powerful, user-friendly mobile applications that bring your digital products closer to your customers. Combining intuitive design, robust engineering and seamless integrations, we develop mobile experiences that perform reliably and scale with your business.", "deliver": ["Mobile application strategy and technical planning.", "Native iOS and Android application development.", "Cross-platform mobile app development.", "UI/UX design and interactive user experiences.", "Backend development and API integrations.", "Application testing, deployment and ongoing support."], "stack": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "Node.js", "REST APIs"], "fit": "Ideal for businesses looking to launch mobile products, improve customer engagement or extend their existing digital platforms to mobile devices."}, "cloud": {"icon": "i-cloud", "topic": "cloud", "title": "Cloud & DevOps Engineering", "lead": "We help businesses build, modernise and manage cloud infrastructure that supports performance, security and scalability. Through cloud engineering and DevOps practices, we streamline deployment processes, improve system reliability and create infrastructure that grows alongside your business.", "deliver": ["Cloud infrastructure architecture and consulting.", "Cloud migration and modernisation.", "CI/CD pipeline design and implementation.", "Containerisation and orchestration.", "Infrastructure as Code and automation.", "Monitoring, security and performance optimisation."], "stack": ["AWS", "Microsoft Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "GitHub Actions"], "fit": "Ideal for businesses modernising their infrastructure, scaling applications or improving deployment speed, system reliability and operational efficiency."}, "data": {"icon": "i-chart", "topic": "data", "title": "Data Engineering & Analytics", "lead": "We transform disconnected and complex business data into reliable, structured and actionable information. Through modern data engineering, analytics and business intelligence solutions, we help organisations understand performance, uncover opportunities and make informed decisions with confidence.", "deliver": ["Data strategy and architecture design.", "Data pipeline development and integration.", "Data warehousing and database management.", "Business intelligence dashboards and reporting.", "Data transformation and processing.", "Predictive analytics and data visualisation."], "stack": ["Python", "SQL", "PostgreSQL", "MongoDB", "Apache Kafka", "Snowflake", "Power BI", "Tableau"], "fit": "Ideal for organisations looking to consolidate business data, improve reporting capabilities and make better decisions through data-driven insights."}};
   const dlg=document.getElementById('svcDialog');
   if(!dlg||typeof dlg.showModal!=='function')return;
   const q=s=>dlg.querySelector(s);
@@ -1579,8 +1598,8 @@ document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('clic
   dlg.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>dlg.close()));
   dlg.addEventListener('close',()=>document.body.classList.remove('modal-open'));
   q('[data-discuss]').addEventListener('click',()=>{
-    const subj=encodeURIComponent('Enquiry: '+q('#svcTitle').textContent);
-    document.querySelectorAll('[data-mail]').forEach(a=>{a.href='mailto:'+a.dataset.mail+'?subject='+subj;});
+    const msg=document.getElementById('cMessage');
+    if(msg&&!msg.value.trim()){msg.value='I’d like to discuss: '+q('#svcTitle').textContent+'\n\n';}
     dlg.close();
   });
 })();
@@ -1617,14 +1636,27 @@ document.querySelectorAll('[data-copy]').forEach(btn=>btn.addEventListener('clic
   go(0);
 })();
 
-/* ---- Testimonials marquee pause/play ---- */
+/* ---- Contact form ---- */
 (function(){
-  const m=document.getElementById('tMarquee'),b=document.getElementById('tToggle');
-  if(!m||!b)return;
-  b.addEventListener('click',()=>{
-    const p=m.classList.toggle('paused');
-    b.setAttribute('aria-pressed',p);
-    b.querySelector('span').textContent=p?'Resume scrolling':'Pause scrolling';
+  const f=document.getElementById('contactForm');if(!f)return;
+  const st=document.getElementById('formStatus');
+  const done=()=>{st.className='ok';st.textContent=f.dataset.success;f.reset();};
+  f.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const d=Object.fromEntries(new FormData(f));
+    const ep=f.dataset.endpoint;
+    if(ep){ /* set data-endpoint on the <form> to a Formspree / backend URL to deliver server-side */
+      try{
+        const r=await fetch(ep,{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/json'},body:JSON.stringify(d)});
+        if(!r.ok)throw new Error('bad');
+        done();
+      }catch(_){st.className='err';st.textContent='Sorry, something went wrong. Please email us directly instead.';}
+      return;
+    }
+    /* no endpoint set: open the visitor's email app with the enquiry pre-filled */
+    const body='Name: '+d.name+'\nEmail: '+d.email+'\nPhone: '+(d.phone||'-')+'\n\n'+d.message;
+    location.href='mailto:'+f.dataset.mail+'?subject='+encodeURIComponent('Project enquiry from '+d.name)+'&body='+encodeURIComponent(body);
+    done();
   });
 })();
 
